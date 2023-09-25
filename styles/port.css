@@ -1,0 +1,58 @@
+.port-row-1 {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding-bottom: 30px;
+  font-size: 30px;
+}
+
+.port-row-2 {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  padding-bottom: 20px;
+}
+
+.port-title {
+  font-size: 45px;
+  margin-right: auto;
+}
+
+.port-logo {
+  max-width: 40px;
+}
+
+.port-logo-placement {
+  display: flex;
+}
+
+.port-date {
+  padding-left: 20px;
+}
+
+.port-logo-date {
+  display: flex;
+  
+}
+
+.bullet-points {
+  font-size: 35px;
+}
+
+.point {
+  padding-bottom: 20px;
+  padding-right: 15px;
+}
+
+.port-img {
+    display: flex;
+}
+
+.port-pic {
+    max-width: 400px;
+    height: auto;
+    object-fit: contain;
+    margin-left: auto;
+    margin-right: 10px;
+    border-radius: 4px;
+}
+

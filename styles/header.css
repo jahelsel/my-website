@@ -1,0 +1,89 @@
+.header {
+  background-color: rgba(92, 131, 116, .9);
+  color: white;
+  height: 50px;
+  width: 600px;
+  align-items: center;
+  font-size: 20px;
+  justify-content: center;
+  padding-left: 2000px;
+  right: 0px;
+  top: 0;
+
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  z-index: 100;
+}
+
+.header-section {
+  padding-right: 30px;
+  margin-right: 20px;
+}
+
+.header-button {
+  color: white;
+  background-color: transparent;
+  border: 0;
+  font-size: 15px;
+  cursor: pointer;
+  transition: font-size, .15s;
+}
+
+.header-button:hover {
+  font-size: 16px;
+  background-color: rgba(0, 0, 0, 0.301);
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  padding-right: 30px;
+  margin-right: 20px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgb(147, 177, 166);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  font-size: 16px;
+  color: white;
+  padding: 5px 5px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropbtn {
+  color: white;
+  background-color: transparent;
+  border: 0;
+  font-size: 15px;
+  transition: background-color, 1s;
+}
+
+.dropdown-content a:hover {
+  background-color: rgb(24, 61, 61);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  font-size: 15px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.link {
+  text-decoration: none;
+  color: antiquewhite;
+}

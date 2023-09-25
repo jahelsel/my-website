@@ -1,0 +1,19 @@
+.footer {
+  position: relative;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  line-height: 2;
+  background-color: rgba(4, 13, 18, .7);
+  border-radius: 5px;
+  margin-top: 50px;
+  padding-bottom: 20px;
+  height: auto;
+  z-index: 100;
+}
+
+.contact-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
